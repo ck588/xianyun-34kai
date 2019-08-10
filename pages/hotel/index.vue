@@ -1,10 +1,14 @@
 <template>
-  <div>酒店</div>
+  <nuxt-link to="/hotel/detail">酒店首页
+  </nuxt-link>
 
 </template>
 
 <script>
-export default {};
+// import Detail from "@/components/hotel/detail.vue"
+export default {
+ 
+};
 </script>
 
 <style>
